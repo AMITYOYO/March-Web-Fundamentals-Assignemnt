@@ -1,0 +1,63 @@
+body{
+   width: 100%;
+   height: 100%;
+   background-color: gray;
+}
+
+#pk1{
+   
+   height: 100vh;
+}
+#block{
+   width: 400px;
+   margin: auto;
+}
+#dig{
+   color: beige;
+   padding: 10px;
+   text-align: center;
+
+}
+img{
+   border-radius: 50%;
+   padding: 0px;
+}
+#imgdiv{
+   text-align:center;
+}
+
+#pok{
+   color: aliceblue;
+   text-align: center;
+   padding: 10px;
+}
+table{
+   width: 100%;
+   color: antiquewhite;
+}
+#btndiv{
+     text-align:center;
+}
+button{
+   padding: 5px;
+   border:5px solid white;
+   margin: 5px;
+   border-radius: 20px;
+   width: 100px;
+   margin-right: 15px;
+   background-color: rgb(103, 83, 192);
+}
+li{
+    display:inline;
+    padding:4px;
+}
+a:hover{
+    color:orange;
+}
+li > ul{
+    display:none;
+}
+li:hover ul {
+    display: block;
+    position: absolute;
+}
